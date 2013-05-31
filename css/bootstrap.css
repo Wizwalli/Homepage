@@ -6820,3 +6820,8 @@ a.thumbnail:hover {
 .affix {
   position: fixed;
 }
+
+#navcolor {
+  font-size: 16px;
+ text-align: right;
+}
