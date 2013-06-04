@@ -9,6 +9,7 @@
 	<meta name="keywords" content="">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <script src="js/jquery-1.10.1.min.js"></script>
     <script src="js/bootstrap.js"></script>
 </head>
 <body>
@@ -17,18 +18,36 @@
         <div class="container">
           <a class="brand" href="#">VTS Home</a>         
             <ul id="navcolor" class="nav">
-              <li class="active">
-                <a href="#">Praktische info</a> 
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        Praktische info <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Onthaalbrochure</a></li>
+                  <li><a href="#">Lidgeld</a></li>
+                  <li><a href="#">Ongevalsaangifte</a></li>
+                  <li><a href="#">Trainingsuren</a></li>
+                  <li><a href="#">Ons turnaanbod</a></li>
+                  <li><a href="#">Turnzalen</a></li>
+                </ul>
               </li>
               <li>
                 <a href="#">Bestuur</a> 
               </li>
-              <li>
-                <a href="#">Foto's</a> 
-              </li>
-              <li>
-                <a href="#">Vts-nieuws</a> 
-              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        Foto's <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Picasa</a></li>
+                </ul>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        VTS-nieuws <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">2013</a></li>
+                </ul>
               <li>
                 <a href="#">Wedstrijd uitslagen</a> 
               </li>
@@ -51,13 +70,5 @@
           </div>
         </div>
       </div>
-
-
-
-
-
-
-      <!-- Javascript -->
-      <script src="js/jquery-1.10.1.min.js"></script>
 </body>
 <html>
